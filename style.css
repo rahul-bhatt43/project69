@@ -178,6 +178,14 @@ body::before {
     justify-content: center;
 }
 
+@media (max-width:1000px) {
+    .content .image-box {
+        max-width: 70%;
+    }
 
+    .content {
+        padding: 10px 0;
+    }
+}
 
 
